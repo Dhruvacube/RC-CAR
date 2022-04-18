@@ -1,21 +1,26 @@
 int state = 0; //bluetooth state
 
-int motorpin1 = 1; //motor1 pin1
+int motorleftpin1 = 1; //left motor pin 1
+int motorleftpin2 = 2; //left motor pin 2
 
-
-int motorpin2 = 2; //motor2 pin1
-
-
-int motorpin3 = 3; //motor3 pin1
-
-
-int motorpin4 = 4; //motor4 pin1
-
-
+int motorrightpin1 = 3; //right motor pin 1
+int motorrightpin2 = 4; //right motor pin 2
 
 void setup()
 {
   Serial.begin(9600);
+}
+
+void right(){
+}
+
+void left(){
+}
+
+void forward(){
+}
+
+void backward(){
 }
 
 void loop()
